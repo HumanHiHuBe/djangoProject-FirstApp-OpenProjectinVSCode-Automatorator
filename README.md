@@ -1,5 +1,5 @@
 # djangoProject-FirstApp-OpenProjectinVSCode-Automatorator
-Create Django Project, Start First App & Open Project Level Folder in VS Code
+Create Django Project, Start First App & Open Project Folder in VS Code
 
 This python File allows you to start your project and first app also open the project folder in VS code in one go.
 All you have To Do is Place This File in Your Favourite Folder Where you create All your Django Projects
