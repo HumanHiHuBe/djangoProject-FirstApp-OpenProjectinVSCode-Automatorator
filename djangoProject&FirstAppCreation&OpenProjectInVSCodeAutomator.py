@@ -1,5 +1,5 @@
 """
-This python file allows you to start your project and first app also open the project level folder in VS code in one go.
+This python file allows you to start your project and first app also open the newly project folder in VS code in one go.
 All you have To Do is Place This File in Your Favourite Folder Where you create All your Django Projects
 and just 'Enter your Project & App Name' when prompted to do so.
 Please enter the name of your Project & App as per rule of Python Identifiers.
