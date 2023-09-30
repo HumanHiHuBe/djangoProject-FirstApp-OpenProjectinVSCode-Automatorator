@@ -1,5 +1,5 @@
 """
-This python file allows you to start your project and first app also open the project folder in VS code in one go.
+This python File allows you to start your project and first app also open the project level folder in VS code in one go.
 All you have To Do is Place This File in Your Favourite Folder Where you create All your Django Projects
 and just 'Enter your Project & App Name' when prompted to do so.
 Please enter the name of your Project & App as per rule of Python Identifiers.
@@ -64,8 +64,7 @@ while True:
 complete_command = 'cmd /c "django-admin startproject {0} & cd {0} & python manage.py startapp {1} & code ." '.format(project_name, app_name)
 
 #Executing The Command
-os.system(complete_command)
-
-#Informing User That Process Has Been Completed
-("Process Completed")
-
+try:
+    os.system(complete_command)
+except:
+    os.system(OSError)
